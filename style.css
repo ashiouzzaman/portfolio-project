@@ -14,6 +14,16 @@ h1{
     line-height: 93.75px;
     color: #363958;
 }
+h2{
+    font-size: 64px;
+}
+h3{
+    font-size: 48px;
+}
+h4{
+    font-size: 24px;
+}
+
 section{
     margin: 0 135px;
 }
@@ -81,7 +91,22 @@ li a:hover{
     text-decoration: none;
     background: linear-gradient(0deg, #FF8063 -28.33%, #F46060 95.83%);
     color: white;
-    text-transform: uppercase;
+    text-transform: capitalize;
     border-radius: 6px;
     font-weight: 500;
+}
+
+.primary-button img{
+    width: 100%;
+}
+
+#about-div{
+    padding-left: 228px;
+    padding-top: 88px;
+}
+#about-div p{
+    line-height: 24px;
+    padding-top: 28px;
+    padding-bottom: 40px;
+    color: 3E3E3E;
 }
