@@ -6,6 +6,7 @@ body{
 h1,h2,h3,h4,h5,h6{
     font-family: 'Bebas Neue', cursive;
     font-weight: 400;
+    text-transform: uppercase;
     margin: 0;
 }
 
@@ -34,7 +35,7 @@ h4{
     float: right;
 
 }
-li{
+#nav-bar li{
     list-style: none;
     display: inline;
     padding-left: 40px;
@@ -42,11 +43,11 @@ li{
     font-size: 16px;
     color: #3C3C3C;
 }
-li a{
+#nav-bar li a{
     text-decoration: none;
     color: inherit;
 }
-li a:hover{
+#nav-bar li a:hover{
     color: #FF8367;
 }
 
@@ -172,4 +173,29 @@ li a:hover{
 
 #project-card-02{
     margin-right: 30px;
+}
+
+
+/* Work inquery section */
+#work-inquery-section{
+    margin: 100px 267px;
+}
+
+#work-inquery-section div{
+    background: linear-gradient(138.38deg, #5D69E9 -7.79%, #4225B6 98.72%);
+    border-radius: 30px;
+    /* height: 224px; */
+    padding: 82px 72px;
+}
+
+#work-inquery-section div h2{
+    color: #FFFFFF;
+    display: inline;
+    line-height: 64px;
+}
+
+#work-inquery-section div a{
+    float: right;
+    border: 1px solid tomato;
+    margin-top: 14px;
 }
